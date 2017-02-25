@@ -1,0 +1,45 @@
+new: 2
+size 0
+capacity 4
+insert 45
+member 45 1
+bin 1 45
+remove 45 1
+insert 89
+bin 1 89
+insert 9
+member 9 1
+size 2
+capacity 4
+insert 8
+member 8 1
+insert 99
+insert 73
+bin 4 73
+insert 24
+insert 46
+bin 6 46
+size 7
+capacity 8
+load_factor 0.875
+insert 88
+bin 14 46
+load_factor 0.5
+remove 99 1
+remove 24 1
+size 6
+remove 8 1
+remove 9 1
+size 4
+capacity 16
+load_factor 0.25
+remove 73 1
+bin 0 88
+remove 46 1
+capacity 8
+size 2
+bin 1 89
+member 88 1
+delete
+summary
+details

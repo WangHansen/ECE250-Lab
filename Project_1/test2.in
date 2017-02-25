@@ -1,0 +1,11 @@
+new: 2
+enqueue_tail 2
+enqueue_tail -1
+size 2
+enqueue_head 3
+capacity 4
+dequeue_head 3
+dequeue_head 2
+dequeue_head -1
+delete
+summary

@@ -1,0 +1,24 @@
+new
+insert 58.83
+insert 987.4
+insert 47.5
+insert 1
+insert 15
+insert 1.1
+bin 15 47.5
+member 987.4 1
+insert 5.9843
+remove 47.5 1
+remove 1 1
+remove 15 1
+remove 58.83 1
+remove 987.4 1
+remove 1.1 1
+remove 5.9843 1
+empty 1
+capacity 32
+clear
+print
+delete
+summary
+details

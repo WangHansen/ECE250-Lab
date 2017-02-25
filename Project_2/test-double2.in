@@ -1,0 +1,37 @@
+new: 0
+insert 961.9
+capacity 1
+insert 11.1111
+capacity 2
+size 2
+load_factor 1
+insert 78.4
+load_factor 0.75
+capacity 4
+insert 5
+load_factor 1
+insert 9.93
+insert 18.4
+size 6
+capacity 8
+insert 75.2
+load_factor 0.875
+insert 3.1
+capacity 16
+size 8
+remove 961.9 1
+remove 5 1
+remove 11.1111 1
+capacity 16
+size 5
+remove 78.4 1
+remove 9.93 1
+remove 18.4 1
+capacity 8
+remove 75.2 1
+remove 3.1 1
+empty 1
+capacity 2
+delete
+summary
+details

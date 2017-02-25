@@ -1,0 +1,235 @@
+new
+dequeue_head!
+empty 1
+size 0
+enqueue_head 1
+enqueue_head 2
+enqueue_head 3
+enqueue_head 4
+enqueue_head 5
+enqueue_head 6
+enqueue_head 7
+enqueue_head 8
+enqueue_head 9
+enqueue_head 10
+size 10
+capacity 10
+enqueue_head 11
+size 11
+capacity 20
+enqueue_head 12
+size 12
+capacity 20
+enqueue_head 13
+enqueue_head 14
+enqueue_head 15
+enqueue_head 16
+enqueue_head 17
+enqueue_head 18
+enqueue_head 19
+enqueue_head 20
+size 20
+capacity 20
+enqueue_head 21
+size 21
+capacity 40
+delete
+summary
+
+new: 2
+enqueue_tail 2
+enqueue_tail -1
+size 2
+enqueue_head 3
+capacity 4
+dequeue_head 3
+dequeue_head 2
+dequeue_head -1
+delete
+summary
+
+new: 1
+enqueue_head 1
+enqueue_tail 2
+head 1
+tail 2
+enqueue_tail 3
+tail 3
+head 1
+enqueue_tail 4
+head 1
+tail 4
+enqueue_head 5
+head 5
+tail 4
+enqueue_tail 6
+tail 6
+head 5
+enqueue_head 7
+head 7
+tail 6
+enqueue_tail 8
+head 7
+tail 8
+enqueue_head 9
+head 9
+tail 8
+delete
+summary
+
+new
+enqueue_head 1
+enqueue_tail 98
+enqueue_head 56
+enqueue_tail 44
+enqueue_head 1
+enqueue_head 81
+head 81
+tail 44
+enqueue_head 99
+enqueue_tail 49
+enqueue_tail 1
+enqueue_tail 88
+head 99
+tail 88
+enqueue_head 54
+head 54
+tail 88
+enqueue_tail 90
+enqueue_head 12
+enqueue_head 89
+enqueue_tail 87
+enqueue_head 41
+head 41
+tail 87
+enqueue_head 78
+enqueue_head 23
+enqueue_head 21
+enqueue_tail 86
+head 21
+tail 86
+enqueue_tail 77
+head 21
+tail 77
+dequeue_head 21
+enqueue_tail 94
+head 23
+tail 94
+enqueue_head 55
+head 55
+tail 94
+capacity 40
+size 22
+delete
+summary
+
+new: 5
+empty 1
+enqueue_head 15
+head 15
+tail 15
+enqueue_head 81
+head 81
+tail 15
+enqueue_tail 57
+dequeue_head 81
+head 15
+tail 57
+enqueue_head 9
+enqueue_head 8
+enqueue_tail 48
+size 5
+capacity 5
+enqueue_tail 74
+head 8
+tail 74
+enqueue_head 3
+size 7
+enqueue_head 47
+enqueue_head 32
+enqueue_tail 85
+size 10
+head 32
+tail 85
+dequeue_head 32
+enqueue_tail 1
+head 47
+enqueue_head 99
+head 99
+tail 1
+size 11
+capacity 20
+delete
+summary
+
+new: 4
+enqueue_head 2
+enqueue_tail 4
+enqueue_head 87
+tail 4
+head 87
+enqueue_head 33
+enqueue_tail 65
+head 33
+tail 65
+dequeue_head 33
+dequeue_head 87
+dequeue_tail 65
+dequeue_tail 4
+head 2
+tail 2
+dequeue_head 2
+enqueue_tail 59
+head 59
+tail 59
+capacity 8
+size 1
+enqueue_head 72
+enqueue_tail 19
+head 72
+tail 19
+size 3
+capacity 8
+empty 0
+clear
+size 0
+delete
+summary
+
+new: 5
+enqueue_tail 1
+enqueue_tail 2
+enqueue_head 2
+enqueue_head 1
+enqueue_head 4
+size 5
+capacity 5
+dequeue_head 4
+dequeue_head 1
+dequeue_head 2
+dequeue_head 1
+dequeue_head 2
+size 0
+capacity 5
+enqueue_tail 1
+enqueue_tail 2
+enqueue_head 2
+enqueue_head 1
+enqueue_head 4
+size 5
+capacity 5
+enqueue_head 5
+size 6
+capacity 10
+enqueue_tail 3
+size 7
+capacity 10
+dequeue_tail 3
+dequeue_tail 2
+dequeue_tail 1
+dequeue_tail 2
+dequeue_tail 1
+dequeue_tail 4
+dequeue_tail 5
+delete
+summary

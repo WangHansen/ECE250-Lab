@@ -1,0 +1,38 @@
+new
+insert 1
+insert 32
+insert 88
+insert 43
+insert 74
+insert 61
+insert 89
+insert 4743
+insert 43
+size 9
+capacity 32
+load_factor 0.28125
+member 5 0
+bin 25 89
+bin 10 74
+member 4743 1
+remove 1 1
+remove 88 1
+size 7
+capacity 32
+remove 32 1
+remove 19 0
+remove 61 1
+remove 89 1
+remove 43 1
+capacity 32
+size 3
+remove 4743 1
+remove 43 1
+size 1
+capacity 32
+remove 74 1
+empty 1
+capacity 32
+delete
+summary
+details

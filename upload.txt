@@ -1,0 +1,12 @@
+ssh h473wang@ecelinux.uwaterloo.ca
+
+test:
+./compiled_file < test.in
+
+new terminal:
+	scp -r ECE_250_Project/Project_4/ h473wang@ecelinux:/home/h473wang/
+
+copy it back to local:
+	scp h473wang@ecelinux:/home/h473wang/h473wang_p4.tar.gz ECE_250_Project/Project_4/
+
+tar -cvzf h473wang_p4.tar.gz Weighted_graph.h Disjoint_sets.h

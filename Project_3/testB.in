@@ -1,0 +1,50 @@
+new
+insert! 26
+insert! 46
+insert mathematics 1
+insert mathematician 1
+insert mathematician 0
+insert math 1
+insert meth 1
+insert myth 1
+insert martin 1
+insert pei 1
+size 7
+erase mathematics 1
+size 6
+erase mathematics 0
+erase mathematic 0
+size 6
+member math 1
+member mathematician 1
+member mathematics 0
+insert mathematical 1
+size 7
+insert mathematical 0
+erase math 1
+size 6
+member math 0
+erase math 0
+size 6
+member meth 1
+member myth 1
+member mathematician 1
+member mathematical 1
+insert mythical 1
+size 7
+member mythical 1
+member myth 1
+erase! meth!
+size 7
+erase meth 1
+size 6
+member meth 0
+member myth 1
+erase mythical 1
+size 5
+member mythical 0
+member myth 1
+clear
+delete
+summary
+exit

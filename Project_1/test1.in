@@ -1,0 +1,37 @@
+new
+dequeue_head!
+empty 1
+size 0
+enqueue_head 1
+enqueue_head 2
+enqueue_head 3
+enqueue_head 4
+enqueue_head 5
+enqueue_head 6
+enqueue_head 7
+enqueue_head 8
+enqueue_head 9
+enqueue_head 10
+size 10
+capacity 10
+enqueue_head 11
+size 11
+capacity 20
+enqueue_head 12
+size 12
+capacity 20
+enqueue_head 13
+enqueue_head 14
+enqueue_head 15
+enqueue_head 16
+enqueue_head 17
+enqueue_head 18
+enqueue_head 19
+enqueue_head 20
+size 20
+capacity 20
+enqueue_head 21
+size 21
+capacity 40
+delete
+summary

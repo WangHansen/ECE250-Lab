@@ -1,0 +1,39 @@
+new
+insert water 1
+size 1
+insert waterloo 1
+size 2
+insert! waterloo! 
+size 2
+member water 1
+member waterlo 0
+insert waterloop 1
+size 3
+erase water 1
+size 2
+member waterloo 1
+member waterloop 1
+erase waterloo 1
+size 1
+erase waterloo 0
+erase! waterloo!
+member waterloop 1
+erase waterloop 1
+empty 1
+delete
+summary
+
+new
+insert snowman 1
+member snowman 1 
+size 1
+insert snow 1
+member snow 1
+erase snowman 1
+member snow 1
+clear
+details
+empty 1
+delete
+summary
+exit

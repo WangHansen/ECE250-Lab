@@ -1,0 +1,20 @@
+new: 0
+capacity 1
+empty 1
+insert 3
+insert 2
+bin 0 2
+bin 1 3
+insert 8
+bin 0 8
+bin 2 2
+bin 3 3
+insert 97
+insert 7
+size 5
+capacity 8
+clear
+empty 1
+delete
+summary
+details
